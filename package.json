@@ -1,14 +1,14 @@
 {
-    "name": "lws-json-server-videos",
-    "description": "Example in memory videos api with json-server by Learn with Sumit",
+    "name": "my-youtube-erver-videos",
+    "description": "Example in memory videos api with json-server by Imran Hossen",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "json-server --delay 500 --watch db_videos.json --no-cors true --port 9000"
+        "start": "json-server --watch db_videos.json --no-cors true --port 9000"
     },
     "dependencies": {
         "json-server": "^0.17.0"
     },
     "keywords": [],
-    "author": "Sumit Saha, Learn with Sumit"
+    "author": "Imran Hossen"
 }
